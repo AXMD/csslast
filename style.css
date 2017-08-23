@@ -482,9 +482,109 @@ header, footer, section{
 		margin-top: 80px;
 		margin-bottom: 12px;
 	}
-
-
-
+	.portfolio-nav{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		margin-top: 39px;
+		margin-bottom: 46px;
+	}
+	.portfolio-line2{
+		background-color:  #adadad;
+		width: 939px;
+		height: 1px;
+	}
+	.portfolio-menu{
+		font-family: PFEncoreSansPro;
+		margin-top: 23px;
+		margin-bottom: 23px;
+		display: flex;
+		justify-content: space-around;
+	}
+	.portfolio-menu a{
+		text-decoration: none;
+		font-family: PFEncoreSansPro;
+		font-size: 20.01px;
+		font-weight: 300;
+		line-height: 26px;
+		text-align: center;
+	}
+	.link-red{
+		color:  #fc635e;
+	}
+	.link-grey{
+		color: #747474;
+	}
+	.link-red:hover{
+		color:  #676767;
+		transform: scale(1.2);
+		transition: 0.2s;
+	}
+	.portfolio-gallery{
+		width: 938px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height:407px;
+	}
+	.gallery-top, .gallery-bottom{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.gallery-top{
+		margin-bottom: 11px;
+	}
+	.realtive{
+		position: relative;
+	}
+	.none{
+		position: absolute;
+		background-color:  rgba(252, 99, 94, 0.78);
+		min-height: 196px;
+		display: none;
+	}
+	.relative:hover div{
+		display: flex;
+		flex-direction: column;
+	}
+	.bikes, .paints, .buses{
+		height: 200px;
+	}
+	.cards{
+		width: 217px;
+	}
+	.bikes{
+		width: 458px;
+	}
+	.paints{
+		width: 222px;
+	}
+	.buses{
+		width: 235px;
+	}
+	.magazines{
+		width: 230px;
+	}
+	.cars{
+		width: 469px;
+	}
+	.cross{
+		clip-path: polygon(0 35%, 35% 34%, 35% 0%, 65% 0%, 65% 36%, 100% 36%, 100% 65%, 65% 65%, 65% 100%, 35% 100%, 34% 64%, 0 64%);		width: 46px;
+		height: 44px;
+		background-color: white;
+		align-self: center;
+		margin-top: 35px;
+	}
+	.relative h3{
+		font-family: PFEncoreSansPro;
+		color:  #ffffff;
+		font-size: 28.01px;
+		font-weight: 700;
+		margin: 27px 0 0 23px;
+		text-align: left;
+	}
 
 
 
