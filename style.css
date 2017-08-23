@@ -545,9 +545,10 @@ header, footer, section{
 		min-height: 196px;
 		display: none;
 	}
-	.relative:hover div{
+	.relative:hover a{
 		display: flex;
 		flex-direction: column;
+		text-decoration: none;
 	}
 	.bikes, .paints, .buses{
 		height: 200px;
@@ -584,6 +585,7 @@ header, footer, section{
 		font-weight: 700;
 		margin: 27px 0 0 23px;
 		text-align: left;
+		text-decoration: none;
 	}
 
 
