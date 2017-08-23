@@ -571,12 +571,17 @@ header, footer, section{
 	.cars{
 		width: 469px;
 	}
-	.cross{
+	.cross, .cross-m{
 		clip-path: polygon(0 35%, 35% 34%, 35% 0%, 65% 0%, 65% 36%, 100% 36%, 100% 65%, 65% 65%, 65% 100%, 35% 100%, 34% 64%, 0 64%);		width: 46px;
 		height: 44px;
 		background-color: white;
 		align-self: center;
+	}
+	.cross{
 		margin-top: 35px;
+	}
+	.cross-m{
+		margin-top: 10px;
 	}
 	.relative h3{
 		font-family: PFEncoreSansPro;
@@ -587,7 +592,11 @@ header, footer, section{
 		text-align: left;
 		text-decoration: none;
 	}
-
+	.portfolio .redbutton{
+		margin-top: 59px;
+		width: 192px;
+		margin-bottom: 15px;
+	}
 
 
 
