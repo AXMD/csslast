@@ -605,7 +605,87 @@ header, footer, section{
 .team{
 	min-height: 577px;
 	background-color:  #f2f2f2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
+	.team_container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 820px;
+		margin-bottom: 71px;
+	}
+	.team_hex{
+		width: 147px;
+		height: 171px;
+		background-color: #fafafa;
+		clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	}
+	.team-hex1{
+		background-image: url("img/team1.png");
+	}
+	.team-hex2{
+		background-image: url("img/team2.png");
+	}
+	.team-hex3{
+		background-image: url("img/team3.png");
+	}
+	.memb1, .memb2, .memb3{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 227px;
+	}
+	.team_container hgroup h4{
+		font-family: PFEncoreSansPro;
+		color:  #565656;
+		font-size: 28.01px;
+		font-weight: 500;
+		line-height: 26px;
+		text-align: center;
+		margin: 0;
+	}
+	.team-hex3{
+		background-color: url("img/team3.png")
+	}
+	.team_container hgroup h4 span{
+		color:  #fc635e;
+	}
+	.team_container hgroup h5{
+		font-family: PFEncoreSansPro;
+		color:  #565656;
+		font-size: 20.01px;
+		font-weight: 300;
+		line-height: 34px;
+		text-align: center;
+		margin: 0;
+	}
+	.portfolio_media{
+		width: 37px;
+		height: 37px;
+		background-color: #565656;
+		border-radius: 50px;
+		display: flex;
+		text-decoration: none;
+		color: #F0F0F0;
+		align-items: center;
+		justify-content: center;
+	}
+	.media_box{
+		display: flex;
+		width: 70%;
+		margin-top: 17px;
+		justify-content: space-around;
+	}
+	.portfolio_media:hover{
+		background-color: #fc635e;
+	}
+
+
+
+
+
 .alan{
 	min-height: 645px;
 	background-color: green;
