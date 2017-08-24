@@ -115,9 +115,14 @@ nav{
 	color:  #fc635e;
 	font-size: 24.01px;
 	font-weight: 300;
-	line-height: 46px;
 	text-align: center;
 	text-decoration: none;
+}
+.lh50{
+	line-height: 50px;
+}
+.lh53{
+	line-height: 53px;
 }
 .button:hover{
 	transform: scale(1.1);
@@ -151,7 +156,6 @@ header, footer, section{
 	flex-direction: column;
 	align-items: center;
 	margin-top: 67px;
-	border: 1px solid black;
 }
 .recieve-top h2{
 	font-family: PFEncoreSansPro;
@@ -185,7 +189,6 @@ header, footer, section{
 .recieve-bottom{
 	width: 950px;
 	display: flex;
-	border: 1px solid black;
 	margin-top: 81px;
 	justify-content: center;
 
@@ -218,6 +221,14 @@ header, footer, section{
 	justify-content: center;
 	align-items: center;
 	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.demo-icon{
+	font-size: 45px;
+	margin-left: 45px;
+	color: white;
+}
+.minhex:hover .demo-icon{
+	color: #fe8682;
 }
 .minhex:hover{
 	background-color: #FCFCFC;
@@ -392,6 +403,7 @@ header, footer, section{
 		transform: scale(1.1);
 		transition: 0.4s;
 		border: 1px solid #fc635e;
+		filter: drop-shadow(8px 8px 10px #fc635e);
 	}
 
 
