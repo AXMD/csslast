@@ -15,6 +15,7 @@ body{
 	padding: 0;
 	display: flex;
 	flex-direction: column;
+	min-width: 1000px;
 }
 header{
 	background: 
@@ -838,6 +839,9 @@ header, footer, section{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-image: url("img/mapback.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 	.map .hex{
 		position: absolute;
@@ -883,4 +887,21 @@ footer{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: relative;
+}
+footer h6{
+	color: white;
+}
+footer h6 span{
+	color: #fc635e;
+}
+footer a{
+	text-decoration: none;
+	position: absolute;
+	bottom: -10px;
+	right: 10;
+}
+footer a:hover{
+	transform: scale(1.5);
+	transition: 0.2s;
 }
